@@ -37,4 +37,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex-direction: column;
   /*flex-direction: row-reverse;*/
   /*flex-direction: column-reverse;*/
+
+  /*
+  The meaning of main-axis and cross-axis:
+  Both are perpendicular to each-other with main-axis always
+  starting from 1 and pointing towards 10 (in this example) 
+  */
 }
