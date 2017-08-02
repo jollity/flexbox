@@ -31,6 +31,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display: inline-flex;
+  /*
+  Declaring a container to be flex container automatically declares
+  the immediate children to be flex items.
+  */
+  display: flex; /*inline-flex: for wrapping the items*/
   border: 10px solid goldenrod;
 }
