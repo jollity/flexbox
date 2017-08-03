@@ -11,3 +11,7 @@ In what **ratio**, the flex-item's size **shrinks** or give up its space when th
 The term **enough-space** that I am talking about consistently refers to the value of **flex-basis property**.  
 That is, if the flex-container has space **greater** than the value of flex-basis, then **flex-grow** will be used to accomodate that space.  
 Else, if the space is **less** than the value of flex-basis, then **flex-shrink** will be used to decide the ratio at which the items get shrink.
+
+## Shorthand notation
+
+  flex: <flex-grow> <flex-shrink> <flex-basis>;
