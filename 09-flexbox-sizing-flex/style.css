@@ -32,10 +32,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
     border: 10px solid goldenrod;
 }
 
-.box {
-    flex: 1;
+
+.box1 {
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 300px;
 }
 
-.box3 {
-    flex: 3;
+.box2 {
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
 }
