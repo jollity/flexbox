@@ -37,3 +37,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex: 1;
   /* for evenly distributing the space between the elements */
 }
+
+.box3 {
+  order: 1;
+}
+
+.box5 {
+  order: 2;
+}
+
+.box4 {
+  order: -1;
+}
+
+.box7 {
+  order: -2;
+}
