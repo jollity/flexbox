@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -30,22 +30,5 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex;
-  border:10px solid goldenrod;
-  min-height:60vh;
-  /* flex-wrap: nowrap; */ /* default! */
-  flex-wrap: wrap;
-  /* flex-wrap: wrap-reverse; */
-
-  flex-direction: column;
-  /*
-  with flex-direction: column, the flex items will get aligned
-  along the y direction with dimensions given by us. If they get the
-  space to stack above each other, then they will. Otherwise, they
-  will make a new cross-axis and start stacking up there.
-  */
-}
-
-.box {
-  width: 50%;
+  
 }
