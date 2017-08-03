@@ -14,4 +14,4 @@ Else, if the space is **less** than the value of flex-basis, then **flex-shrink*
 
 ## Shorthand notation
 
-  flex: <flex-grow> <flex-shrink> <flex-basis>;
+  flex: flex-grow flex-shrink flex-basis;
