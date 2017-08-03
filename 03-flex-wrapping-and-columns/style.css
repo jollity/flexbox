@@ -32,12 +32,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid goldenrod;
-  height:60vh;
+  min-height:60vh;
   /* flex-wrap: nowrap; */ /* default! */
   flex-wrap: wrap;
   /* flex-wrap: wrap-reverse; */
 
   flex-direction: column;
+  /*
+  with flex-direction: column, the flex items will get aligned 
+  along the y direction with dimensions given by us. If they get the
+  space to stack above each other, then they will. Otherwise, they
+  will make a new cross-axis and start stacking up there.
+  */
 }
 
 .box {
