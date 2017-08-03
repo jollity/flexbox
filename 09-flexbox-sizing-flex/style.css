@@ -31,3 +31,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
     min-height: 100vh;
     border: 10px solid goldenrod;
 }
+
+.box {
+    flex: 1;
+}
+
+.box3 {
+    flex: 3;
+}
