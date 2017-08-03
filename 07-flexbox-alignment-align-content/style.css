@@ -32,4 +32,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display: flex;
   height: 100vh;
+  border: 10px solid goldenrod;
+  flex-wrap: wrap;
+  /*align-content: stretch;*/ /* default! */
+  /*align-content: flex-start;*/
+  /*align-content: flex-end;*/
+  /*align-content: center;*/
+  /*align-content: space-between;*/ 
+  align-content: space-around;
+}
+
+.box {
+  width: 33.33333%;
 }
