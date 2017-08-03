@@ -16,4 +16,6 @@ The **flex-wrap** property is a **sub-property** of the ***Flexible Box Layout m
 The flex-wrap property accepts 3 different values:
 1. **nowrap (default)**: single-line which may cause the container to overflow
 2. **wrap**: multi-lines, direction is defined by flex-direction
-3. **wrap-reverse**: multi-lines, opposite to direction defined by flex-direction
+3. **wrap-reverse**: multi-lines, opposite to direction defined by flex-direction.
+
+##### P.S. wrap-reverse property changes the direction of cross-axis by 180 degrees. 
