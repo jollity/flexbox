@@ -46,6 +46,9 @@ a:hover {
   display: flex;
 }
 
+.flex-nav li {
+  flex: 3;
+}
 
 @media all and (max-width:1000px) {
 
